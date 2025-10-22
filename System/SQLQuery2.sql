@@ -1,0 +1,9 @@
+CREATE TABLE Employee (
+    EmployeeID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Position NVARCHAR(50) NOT NULL,
+    RatePerHour DECIMAL(10,2) NOT NULL,
+    Address NVARCHAR(200) NULL,
+    Contact NVARCHAR(50) NULL,
+    Status NVARCHAR(20) NOT NULL
+);
